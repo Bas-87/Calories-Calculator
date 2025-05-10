@@ -1,0 +1,10 @@
+Gender: 
+Weight:  kg
+Height:  cm
+Age: 
+Activity Factor: 
+BMR:  kcal
+TDEE:  kcal
+BMI:  ()
+Macros: Protein= g, Carbs= g, Fat= g
+Calories Consumed: 2019 kcal
