@@ -26,7 +26,7 @@ The script asks the user to enter:
 - 🔸 Allows the user to **track daily meal intake**
 - 🔸 Compares daily intake with total need
 - 🔸 **Saves results** to a timestamped report file
-- 🔸 (Optional) **Graphical input** using `zenity` if installed
+
 
 ---
 
