@@ -76,13 +76,6 @@ The script asks the user to enter:
 
 ---
 
-## Requirements
-- Bash shell environment (Linux, macOS, or Git Bash on Windows)
-- `bc` command-line calculator (for floating point math)
-- `zenity` (optional, for graphical input windows)
-
----
-
 ## How to Run
 
 1. Open your terminal and navigate to the project directory.
