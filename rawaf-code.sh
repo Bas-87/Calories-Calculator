@@ -1,7 +1,5 @@
 #!/bin/bash
-
 #Track daily calories
-
 echo ""
 echo "=== Track Your Daily Intake ==="
 total_intake=0
@@ -16,9 +14,7 @@ while true; do
     echo "Current total intake: $total_intake kcal"
 done
 
-
 #Compared to required calories
-
 echo ""
 echo "=== Intake Summary ==="
 echo "Total consumed today: $total_intake kcal"
@@ -32,11 +28,10 @@ else
     echo "You met your exact daily requirement!"
 fi
 
-
 #Save results
-
 filename="calorie_report_$(date +%Y%m%d_%H%M%S).txt"
 {
+    echo "Name: $name"
     echo "Gender: $gender"
     echo "Weight: $weight kg"
     echo "Height: $height cm"
@@ -45,7 +40,7 @@ filename="calorie_report_$(date +%Y%m%d_%H%M%S).txt"
     echo "BMR: $BMR kcal"
     echo "TDEE: $TDEE kcal"
     echo "BMI: $bmi ($bmi_status)"
-    echo "Macros: Protein=$protein g, Carbs=$carbs g, Fat=$fat g"
+    echo "Macros: Protein= $PROTEIN g, Carbs= $CARBS g, Fat= $FATS g"
     echo "Calories Consumed: $total_intake kcal"
 } > "$filename"
 
