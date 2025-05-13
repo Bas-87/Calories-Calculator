@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "== Body Mass Index (BMI) Calculator =="
+echo "=== Body Mass Index (BMI) Calculator ==="
 
 # Convert height from centimeters to meters
 height_m=$(echo "scale=2; $height / 100" | bc)
