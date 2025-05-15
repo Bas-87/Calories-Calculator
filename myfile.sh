@@ -1,7 +1,10 @@
 #!/bin/bash
 # === Basmah's Function: Collect Input + Calculate BMR & TDEE ===
 calculate_bmr_tdee() {
-    echo "=== Welcome to the Daily Calorie Calculator ==="
+    echo "============================================="
+    echo "🌟 Welcome to the Daily Calorie Calculator 🌟"
+    echo "============================================="
+    echo ""
     
     # Get user's data
     read -p "Enter your name: " name
