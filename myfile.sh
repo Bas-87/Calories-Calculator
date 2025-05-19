@@ -33,7 +33,7 @@ calculate_bmr_tdee() {
     esac
 
     # Calculate BMR based on gender and user data
-    if [ "$gender" -eq "male" ] 2>/dev/null 
+    if [ "$gender" = "male" ] 
     then
         BMR=$(echo "$weight $height $age" | awk '{print (10 * $1) + (6.25 * $2) - (5 * $3) + 5}')
     else
